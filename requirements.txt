@@ -1,7 +1,6 @@
 flask
 openai
 gunicorn
-whatsapp-api-client
 python-dotenv
 transformers
 torch
