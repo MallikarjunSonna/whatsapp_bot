@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 WHATSAPP_ACCESS_TOKEN = os.getenv("WHATSAPP_ACCESS_TOKEN")
 PHONE_NUMBER_ID = os.getenv("PHONE_NUMBER_ID")
-WHATSAPP_CUSTOMER_KEY = os.getenv("WHATSAPP_CUSTOMER_KEY")
+VERIFY_TOKEN = os.getenv("VERIFY_TOKEN")
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 
 @app.route("/", methods=["GET"])
