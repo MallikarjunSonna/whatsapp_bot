@@ -8,7 +8,7 @@ from transformers import pipeline
 load_dotenv()
 
 # Load chatbot model
-chatbot = pipeline("text-generation", model="microsoft/DialoGPT-small")
+chatbot = pipeline("text-generation", model="facebook/blenderbot-400M-distill")
 
 def generate_response(message):
     response = chatbot(message, max_length=100, do_sample=True)
